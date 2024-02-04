@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 public class RegisterDto {
     String email;
     String password;
-    String nombre;
-    String apellido;
-    String pais;
-    String rol;
+    String firstname;
+    String lastname;
+    String country;
+    String role;
 }
