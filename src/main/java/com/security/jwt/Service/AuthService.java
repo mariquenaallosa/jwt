@@ -34,7 +34,7 @@ public class AuthService {
         return AuthResponse.builder().token(token).build();
     }
 
-    public AuthResponse resgister(RegisterDto register){
+    public AuthResponse register(RegisterDto register){
         Optional<User> userOptional = userRepository.findByEmail(register.getEmail());
         if (userOptional.isPresent()){
             throw new RuntimeException("User already exists");
