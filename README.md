@@ -23,6 +23,8 @@ El JWT contiene:
 ## Crear proyecto 
 
 Dirigirse a [Spring Initializer](https://start.spring.io/) y agregar las dependencias que se ven a continuación
+![image](https://github.com/mariquenaallosa/jwt/assets/99567012/9c61ab61-ee10-4d52-b53a-103a0e7c64e8)
+
 
 Lombok es una librería de anotaciones que nos ahorran código de getters, setters y contructores mientras que Validation nos facilita anotaciones para validar atributos como pueden ser @NotNull o @NotBlank.
 Luego que descargamos el archivo generadom en el archivo pom.xml hay que agregar manualmente las 3 dependencias de JWT. 
